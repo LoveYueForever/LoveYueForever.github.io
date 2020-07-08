@@ -37,6 +37,20 @@
 					},
 				});
 		</script>
+		<div id="container"></div>
+
+		<script>
+			var div = document.getElementById('container');
+			var PSV = new PhotoSphereViewer({
+					panorama: './output.jpg',
+					container: div,
+					time_anim: 3000,
+					navbar: true,
+					navbar_style: {
+						backgroundColor: 'rgba(58, 67, 77, 0.7)'
+					},
+				});
+		</script>
 	</body>
 
 </html>
